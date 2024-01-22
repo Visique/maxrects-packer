@@ -7,7 +7,7 @@
   "types": "dist/maxrects-packer.d.ts",
   "scripts": {
     "clean": "rimraf ./lib && rimraf ./dist",
-    "build": "rollup -c",
+    "build": "rollup -c --bundleConfigAsCjs",
     "build:clean": "npm run clean && npm run build",
     "doc": "typedoc && touch docs/.nojekyll",
     "doc:json": "typedoc --json docs/typedoc.json",
