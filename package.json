@@ -2,6 +2,7 @@
   "name": "maxrects-packer",
   "version": "2.7.3",
   "description": "A max rectangle 2d bin packer for packing glyphs or images into multiple sprite-sheet/atlas",
+  "type": "module",
   "main": "dist/maxrects-packer.js",
   "module": "dist/maxrects-packer.mjs",
   "types": "dist/maxrects-packer.d.ts",
